@@ -1,0 +1,32 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-content {
+  overflow: auto;
+}
+
+.custom-header {
+  padding: 0;
+  background: var(--ant-layout-header-background, #fff);
+}
+
+.menu-toggle-button {
+  font-size: 16px;
+  width: 64px;
+  height: 64px;
+}
+  
+.custom-content {
+  margin: 24px 16px;
+  padding: 24px;
+  min-height: 280px;
+  background: var(--ant-layout-content-background, #fff);
+  border-radius: var(--ant-border-radius-lg, 8px);
+}
