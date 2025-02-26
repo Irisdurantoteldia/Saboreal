@@ -1,32 +1,56 @@
-body, html, #root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.ant-layout {
-  min-height: 100vh;
-}
-
-.ant-layout-content {
-  overflow: auto;
-}
-
 .custom-header {
-  padding: 0;
-  background: var(--ant-layout-header-background, #fff);
+  padding: 0 16px;
+  background: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .menu-toggle-button {
-  font-size: 16px;
-  width: 64px;
-  height: 64px;
+  font-size: 18px;
+  margin-right: 16px;
 }
-  
+
 .custom-content {
   margin: 24px 16px;
   padding: 24px;
   min-height: 280px;
-  background: var(--ant-layout-content-background, #fff);
-  border-radius: var(--ant-border-radius-lg, 8px);
+  background: white;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.demo-logo-vertical {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Additional styles for Reviewers page */
+.reviewer-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.content-box {
+  border: 1px solid #e8e8e8;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.create-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
